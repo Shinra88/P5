@@ -390,7 +390,7 @@ input[type="submit"] {
 
 	.top-header .nav,
 	.top-header .nav ul {
-		width: 100%;
+
 		padding: 0 0 0 0;
 	}
 
@@ -398,6 +398,7 @@ input[type="submit"] {
 		flex: 1;
 		padding-block: 1em;
 		text-align: center;
+		white-space : nowrap;
 	}
 
 	.picture.left::before,
@@ -425,5 +426,20 @@ input[type="submit"] {
 
 	.picture {
 		width: 80%;
+	}
+
+	.carousel-inner img{
+		height: 188px;
+		width: 406px;
+	}
+	
+	.picture.left img{
+		height: 150px;
+		width: 150px;
+	}
+	
+	.picture.right img{
+		height: 257px;
+		width: 256px;
 	}
 }
