@@ -274,7 +274,7 @@ input[type="submit"] {
 	width: 1487px;
 }
 
-.picture left img{
+.picture.left img{
 	height: 416px;
 	width: 415px;
 }
@@ -284,7 +284,7 @@ input[type="submit"] {
 	width: 440px;
 }
 
-.picture right img{
+.picture.right img{
 	height: 407px;
 	width: 406px;
 }
