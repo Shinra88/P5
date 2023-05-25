@@ -290,9 +290,32 @@ input[type="submit"] {
 	width: 20px;
 }
 
+.form-container button{
+	margin-top: 55px;
+background-color: #BEB45A;
+border-radius: 12px;
+border: 5px solid  #BEB45A;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.form-container a{
+	color: #000;
+	}
+
+.form-container button:hover{
+	background-color: #857e42;
+	border-radius: 12px;
+	border: 5px solid  #857e42;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	}
+
 .jeveuxecrire{
 	text-decoration: none;
-	color: #000
+	color: #000;
+	font-weight: 600;
+	font-size: 45px;
+	
+	
 
 }
 
