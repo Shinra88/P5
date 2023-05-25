@@ -290,6 +290,12 @@ input[type="submit"] {
 	width: 20px;
 }
 
+.jeveuxecrire{
+	text-decoration: none;
+	color: #000
+
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex: 2;
@@ -437,5 +443,13 @@ input[type="submit"] {
 	.picture.right img{
 		height: 257px;
 		width: 256px;
+	}
+}
+
+@media all and (max-width: 412px) {
+
+	.carousel-inner img{
+		height: 191px;
+		width: 412px;
 	}
 }
