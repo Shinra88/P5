@@ -27,8 +27,6 @@ $('.jeveuxecrire').click(function() { //Protection mails et decodage au click
 
         // Ajouter ou modifier l'attribut « href » avec l'adresse
         $(this).attr('href', sT);
-
-    
 })
 $('.jeveuxecrire').focusout(function() {
     $(this).attr('href', '#');
