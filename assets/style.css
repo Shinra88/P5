@@ -324,6 +324,11 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 		flex: 2;
 	}
 
+	.carousel-inner img{
+		height: 348px;
+		width: 751px;
+	}
+
 	#about,
 	#contact .container {
 		align-items: center;
@@ -363,6 +368,11 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	.about-me__title {
 		text-align: center;
 		margin-top: 1em;
+	}
+
+	.gallery img{
+		height: 240px;
+		width: 240px;
 	}
 
 	#services .container {
@@ -429,6 +439,11 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	.picture.left::before,
 	.picture.right::before {
 		height: 150px;
+	}
+
+	.gallery img{
+		height: 440px;
+		width: 440px;
 	}
 
 	#services .container {
