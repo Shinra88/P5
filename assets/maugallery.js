@@ -155,7 +155,7 @@
       });
       next =
         imagesCollection[index] ||
-        imagesCollection[imagesCollection.length - 1];
+        imagesCollection[imagesCollection.length - 1]; //test
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
     nextImage() {
@@ -184,7 +184,7 @@
           }
         });
       }
-      let index = 0,
+      let index = +1,
         next = null;
 
       $(imagesCollection).each(function(i) {
@@ -240,7 +240,7 @@
         return;
       }
       $(".active-tag").removeClass("active active-tag");
-      $(this).addClass("active-tag");
+      $(this).addClass("active active-tag");
 
       var tag = $(this).data("images-toggle");
 
