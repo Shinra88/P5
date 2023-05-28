@@ -285,7 +285,7 @@ input[type="submit"] {
 	width: 20px;
 }
 
-.form-container button {
+.form-container a {
 	margin-top: 55px;
 	background-color: #BEB45A;
 	border-radius: 12px;
@@ -297,7 +297,7 @@ input[type="submit"] {
 	color: #000;
 }
 
-.form-container button:hover {
+.form-container a:hover {
 	background-color: #857e42;
 	border-radius: 12px;
 	border: 5px solid #857e42;

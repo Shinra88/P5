@@ -118,7 +118,6 @@
         .find(".lightboxImage")
         .attr("src", element.attr("src"));
       $(`#${lightboxId}`).modal("toggle");
-      //$(#monImage).attr(src, img_02.png) srcset ?;//
     },
     prevImage() {
       let activeImage = null;
