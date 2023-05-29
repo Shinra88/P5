@@ -235,36 +235,6 @@ body {
 
 }
 
-form {
-	display: flex;
-	flex-direction: column;
-	width: 70%;
-	align-items: flex-start;
-}
-
-form input {
-	width: 100%;
-	background-color: transparent;
-	border: solid 1px;
-	height: 2.5em;
-	margin-bottom: 20px;
-}
-
-form textarea {
-	width: 100%;
-	background-color: transparent;
-	border: solid 1px;
-	height: 5em;
-	line-height: 2.5em;
-	font-size: 1.2em;
-	margin-bottom: 20px;
-}
-
-input[type="submit"] {
-	background-color: #BEB45A;
-	padding: .5em 1em
-}
-
 .carousel-inner img {
 	height: 688px;
 	width: 1487px;
