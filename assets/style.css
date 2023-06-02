@@ -113,7 +113,7 @@ body {
 	border-radius: 0;
 }
 
-.nav-pills .nav-link:hover{
+.nav-pills .nav-link:hover {
 	cursor: pointer;
 }
 
@@ -142,7 +142,7 @@ body {
 	padding: .5em;
 }
 
-.gallery-item:hover{
+.gallery-item:hover {
 	cursor: pointer;
 }
 
