@@ -113,6 +113,10 @@ body {
 	border-radius: 0;
 }
 
+.nav-pills .nav-link:hover{
+	cursor: pointer;
+}
+
 .nav-pills .nav-link {
 	color: #000
 }
@@ -136,6 +140,10 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+}
+
+.gallery-item:hover{
+	cursor: pointer;
 }
 
 .mg-prev,
@@ -269,7 +277,7 @@ body {
 
 .form-container a:hover {
 	background-color: #857e42;
-	border-radius: 12px;
+	border-radius: 30px;
 	border: 5px solid #857e42;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
