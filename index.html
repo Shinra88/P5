@@ -178,7 +178,7 @@
 					<picture>
 						<source media="(max-width: 650px)" srcset="./assets/images/nina-small.webp">
 						<source media="(min-width: 651px)" srcset="./assets/images/nina.webp">
-						<img src="./assets/images/nina.webp" alt="photo portrait de nina carducci" loading="lazy">
+						<img src="./assets/images/nina.webp" alt="photo portrait de nina carducci" aria-describedby="ariaDescriptionNina" loading="lazy">
 					</picture>
 				</div>
 				<link rel="stylesheet"
@@ -209,7 +209,7 @@
 			<div id="gallery">
 				<h2 class="title">Portfolio</h2>
 				<div class="container py-3">
-					<div class="gallery" style="display: none">
+					<div class="gallery" style="display: none" role="img" aria-label="Différentes photos du travail de nina carducci">
 						<img data-gallery-tag="Concert" class="gallery-item"
 							src="./assets/images/gallery/concerts/aaron-paul.webp" loading="lazy"
 							alt="photo du public d'un concert d'aaron-paul">
