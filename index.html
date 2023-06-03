@@ -14,12 +14,11 @@
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		media="screen and (min-width:320px)" as="style">
 
-	<!-- ***************************CDN Framework + css + Js Local***************************  -->
+	<!-- ***************************CDN Framework + css***************************  -->
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
 		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"
 		media="screen and (min-width:320px)">
-	
 	<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" as="script">
 	<link rel="stylesheet" href="./assets/style.css" media="screen and (min-width:320px)">
 
@@ -58,10 +57,6 @@
 	<meta name="instagram:site" content="@ninacarducci.photo">
 	<meta name="instagram:caption"
 		content="Nina Carducci - photographe professionnelle à Bordeaux, Shooting, retouche et album photo personnalisé à des tarifs préférentiels pour immortaliser vos plus beaux moments. Visitez mon site : https://shinra88.github.io/p5/ ">
-
-	
-	<!-- ***************************Google Tag***************************  -->
-	<link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-FGD1WBD73X" as="script">
 </head>
 
 <body>
@@ -96,25 +91,23 @@
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="./assets/images/slider/ryoji-iwata.webp" class="d-block w-100" 
-						srcset="./assets/images/slider/ryoji-iwata-mobile.webp 412w,
+						<img src="./assets/images/slider/ryoji-iwata.webp" class="d-block w-100" srcset="./assets/images/slider/ryoji-iwata-mobile.webp 412w,
 								./assets/images/slider/ryoji-iwata-small.webp 650w,
 								./assets/images/slider/ryoji-iwata.webp 1487w" sizes="(max-width: 100%) 100vw"
-								alt="businessman de dos traversant un passage piétons">
+							alt="businessman de dos traversant un passage piétons">
 					</div>
 					<div class="carousel-item">
 						<img src="./assets/images/slider/nicholas-green.webp" loading="lazy" class="d-block w-100"
 							srcset="./assets/images/slider/nicholas-green-mobile.webp 412w,
 									./assets/images/slider/nicholas-green-small.webp 650w,
-									./assets/images/slider/nicholas-green.webp 1487w" sizes="(max-width: 100%) 100vw" 
-									alt="foule les bras levés">
+									./assets/images/slider/nicholas-green.webp 1487w" sizes="(max-width: 100%) 100vw" alt="foule les bras levés">
 					</div>
 					<div class="carousel-item">
 						<img src="./assets/images/slider/edward-cisneros.webp" loading="lazy" class="d-block w-100"
 							srcset="./assets/images/slider/edward-cisneros-mobile.webp 412w,
 									./assets/images/slider/edward-cisneros-small.webp 650w,
 									./assets/images/slider/edward-cisneros.webp 1487w" sizes="(max-width: 100%) 100vw"
-									alt="mariés dansant à leur mariage et s'embrassant">
+							alt="mariés dansant à leur mariage et s'embrassant">
 					</div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -138,7 +131,8 @@
 					<picture>
 						<source media="(max-width: 650px)" srcset="./assets/images/nina-small.webp">
 						<source media="(min-width: 651px)" srcset="./assets/images/nina.webp">
-						<img src="./assets/images/nina.webp" alt="photo portrait de nina carducci" aria-describedby="ariaDescriptionNina" loading="lazy">
+						<img src="./assets/images/nina.webp" alt="photo portrait de nina carducci"
+							aria-describedby="ariaDescriptionNina" loading="lazy">
 					</picture>
 				</div>
 				<link rel="stylesheet"
@@ -169,7 +163,8 @@
 			<div id="gallery">
 				<h2 class="title">Portfolio</h2>
 				<div class="container py-3">
-					<div class="gallery" style="display: none" role="img" aria-label="Différentes photos du travail de nina carducci">
+					<div class="gallery" style="display: none" role="img"
+						aria-label="Différentes photos du travail de nina carducci">
 						<img data-gallery-tag="Concert" class="gallery-item"
 							src="./assets/images/gallery/concerts/aaron-paul.webp" loading="lazy"
 							alt="photo du public d'un concert d'aaron-paul">
@@ -294,57 +289,61 @@
 			</div>
 		</div>
 	</footer>
-	<!-- ***************************Google Tag***************************  -->
-	<script defer src="https://www.googletagmanager.com/gtag/js?id=G-FGD1WBD73X"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
-		gtag('config', 'G-FGD1WBD73X');
-	</script>
-</body>
+<!-- ***************************Google Tag***************************  -->
+<script defer src="https://www.googletagmanager.com/gtag/js?id=G-FGD1WBD73X"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+	gtag('config', 'G-FGD1WBD73X');
+</script>
+
+<!-- ***************************Js Local + Cdn***************************  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
-		integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
-		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-		crossorigin="anonymous"></script>
-	<script defer src="./assets/scripts.js"></script>
-	<script defer src="./assets/maugallery.js"></script>
+	integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+	crossorigin="anonymous"></script>
+<script defer src="./assets/scripts.js"></script>
+<script defer src="./assets/maugallery.js"></script>
+
 <!-- Rich Snippets -->
-	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "LocalBusiness",
-			"name": "Nina Carducci Photographe",
-			"image": "https://shinra88.github.io/p5/assets/images/nina-social.webp",
-			"@id": "https://shinra88.github.io/p5/assets/images/nina-social.webp",
-			"url": "https://shinra88.github.io/p5/",
-			"telephone": "05 56 67 78 89",
-			"priceRange": "50€ 400€",
-			"address": {
-				"@type": "PostalAddress",
-				"streetAddress": "68 avenue Alsace-Lorraine",
-				"addressLocality": "Bordeaux",
-				"postalCode": "33200",
-				"addressCountry": "FR"
-			},
-			"geo": {
-				"@type": "GeoCoordinates",
-				"latitude": 44.8465743,
-				"longitude": -0.6065366999999999
-			},
-			"openingHoursSpecification": {
-				"@type": "OpeningHoursSpecification",
-				"dayOfWeek": [
-					"Monday - Friday"
-				],
-				"opens": "10:00",
-				"closes": "19:00"
-			},
-			"sameAs": "https://www.instagram.com/ninacarducci.photo/"
-		}
-	</script>
+<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "LocalBusiness",
+		"name": "Nina Carducci Photographe",
+		"image": "https://shinra88.github.io/p5/assets/images/nina-social.webp",
+		"@id": "https://shinra88.github.io/p5/assets/images/nina-social.webp",
+		"url": "https://shinra88.github.io/p5/",
+		"telephone": "05 56 67 78 89",
+		"priceRange": "50€ 400€",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "FR"
+		},
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": 44.8465743,
+			"longitude": -0.6065366999999999
+		},
+		"openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+				"Monday - Friday"
+			],
+			"opens": "10:00",
+			"closes": "19:00"
+		},
+		"sameAs": "https://www.instagram.com/ninacarducci.photo/"
+	}
+</script>
+</body>
+
 </html>
