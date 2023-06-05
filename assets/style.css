@@ -340,10 +340,7 @@ body {
 		margin-top: 1em;
 	}
 
-	.gallery img {
-		height: 240px;
-		width: 240px;
-	}
+
 
 	#services .container {
 		flex-direction: column;
