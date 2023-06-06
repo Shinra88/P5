@@ -14,17 +14,16 @@ $(document).ready(function () {
     });
 });
 
-$('.jeveuxecrire').click(function () {
+$('.contacter').click(function () {
     var medestinataires = {
-        Paul: 'U2FsdGVkX19H4uulqUsl7aYZ52uzi7a5ZYMvoG4AS9bVbydoH3pLeeiVVOAKBOGc6KWXuTN8M/mzghY3DXV+OQ==',
-        John: 'U2FsdGVkX1+equgvbyf/8950tgSj2nluLf865mZ84cGBsswcFOT9CySy069QPlQq'
+       Nina: 'U2FsdGVkX19JRwt60LRIVKidsBDlYCZWymhP6WehzW3VnMBXsfo3mQANHSm4kus/fMXGHufADTsUa3/a7f0gCg=='
     };
 
-    var sT = CryptoJS.AES.decrypt(medestinataires[$(this).attr('data-akikoncause')], $(this).attr('data-akikoncause')).toString(CryptoJS.enc.Utf8) + $(this).attr('data-dekoikoncause');
+    var sT = CryptoJS.AES.decrypt(medestinataires[$(this).attr('data-monemail')], $(this).attr('data-monemail')).toString(CryptoJS.enc.Utf8) + $(this).attr('data-sujet');
 
 
     $(this).attr('href', sT);
 })
-$('.jeveuxecrire').focusout(function () {
+$('.contacter').focusout(function () {
     $(this).attr('href', '#');
 })
